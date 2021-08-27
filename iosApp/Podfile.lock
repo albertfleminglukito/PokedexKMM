@@ -1,0 +1,27 @@
+PODS:
+  - Nuke (10.3.3)
+  - shared (1.0)
+
+DEPENDENCIES:
+  - Nuke (from `https://github.com/kean/Nuke`, branch `master`)
+  - shared (from `../shared`)
+
+EXTERNAL SOURCES:
+  Nuke:
+    :branch: master
+    :git: https://github.com/kean/Nuke
+  shared:
+    :path: "../shared"
+
+CHECKOUT OPTIONS:
+  Nuke:
+    :commit: c0b32b0d7154afceb3fc08b199492f125ff4267e
+    :git: https://github.com/kean/Nuke
+
+SPEC CHECKSUMS:
+  Nuke: d0891b0473684bb6f2900dc867735c63f3fa1eb1
+  shared: 29346581d099b8843a69aab157c4d0577c3c8287
+
+PODFILE CHECKSUM: cf042f7f291bb88858cec08161e1b84fa0980caa
+
+COCOAPODS: 1.11.0.beta.2
